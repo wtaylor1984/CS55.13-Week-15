@@ -16,7 +16,7 @@ const Tab1: React.FC = () => {
   },[])
 
   console.log(dataset);
-  /*
+  
   return (
     <IonPage>
       <IonHeader>
@@ -36,8 +36,16 @@ const Tab1: React.FC = () => {
       
     </IonPage>
   );
-  */
- return ();
+  
+ return (
+<IonPage>
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle>Posts Info</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+    </IonPage>
+ );
 };
 
 export default Tab1;
