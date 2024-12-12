@@ -16,6 +16,7 @@ const Tab1: React.FC = () => {
   },[])
 
   console.log(dataset);
+  /*
   return (
     <IonPage>
       <IonHeader>
@@ -23,7 +24,6 @@ const Tab1: React.FC = () => {
           <IonTitle>Posts Info</IonTitle>
         </IonToolbar>
       </IonHeader>
-    
       {dataset.map((item, index) => (
         <IonItem key={index}>
           <IonLabel>
@@ -33,11 +33,11 @@ const Tab1: React.FC = () => {
           </IonLabel>
         </IonItem>
       ))}
-      <IonItem>
-
-      </IonItem>
+      
     </IonPage>
   );
+  */
+ return ();
 };
 
 export default Tab1;
