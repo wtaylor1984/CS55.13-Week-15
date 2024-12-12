@@ -1,5 +1,4 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonListHeader, IonItem, IonLabel } from '@ionic/react';
-import { InAppBrowser } from '@ionic-native/in-app-browser';
 import ExploreContainer from '../components/ExploreContainer';
 import React, {useState, useEffect} from 'react';
 import './Tab1.css';
